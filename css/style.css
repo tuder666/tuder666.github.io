@@ -1,0 +1,136 @@
+   html, body{
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+    background-color: #cccc; 
+    font-family: Lora;
+}
+.text-r{
+color:red; text-transform: uppercase;
+}
+#sp{
+  color: #fff;
+  padding-left: 10px;
+
+}
+.answerdec{
+  text-decoration: underline;
+  color: #111;
+}
+#change{
+  position: absolute;
+  right: 100px;
+  top: 100%;
+}
+
+#text{
+  font-size: 150%;
+color:white;
+opacity: 10%;
+width: 75%;
+margin-left: 5%;}
+#butt{
+  position: absolute;
+  right: 100px;
+    font-family: Lora;
+    font-size: 20px;
+  border: 0;
+  color: white;
+  background: rgb(225, 10,10);
+    margin-bottom: 10%;
+}
+.answer{ padding-left: 15px; width: 90%;}
+#container{
+  width: 100%;
+height: 2%;
+  position: fixed;
+  top:0;
+  left:0;
+  margin-bottom: 10%;
+}
+#test{
+position: relative;
+  margin: 0 auto;
+  padding-top: 7%;
+  width: 70%;
+}
+#slider{
+  width: 100%;
+  height: 100%;
+  background: #aaa;
+  position: absolute;
+   overflow: hidden;
+}
+	@font-face{
+		font-family: "TagType";
+		src: url(../fonts/TagTypeRegular.ttf);
+	}
+       @font-face{
+		font-family: "Lora";
+		src: url('../fonts/Lora.otf');
+	} 
+       @font-face{
+		font-family: "Main";
+		src: url('../fonts/main.ttf');
+	} 
+    @media screen and (max-width: 700px){
+
+}
+   
+
+   input:valid + span:after {
+    content: url(../images/ok1.png); 
+    padding-left: 5px;
+   }
+   input:invalid + span:after {
+    content: url(../images/nook1.png);
+    padding-left: 5px;
+   }
+
+   .ok{position: absolute; right: 40px; margin-top: -25px;}
+
+   #second{   
+    text-align: center;
+    margin: 0 auto;
+    background: #ccc;
+    position: relative;
+    width: 70%;
+    height: auto;
+    padding-bottom: 290px;
+   }
+   #slider--2{
+    left: 33%;
+ bottom: 20px;
+    position: relative;
+    float: left;
+    width: 33%;
+    min-width: 350px;
+    height:  205px;
+    padding-top: 50px;
+    overflow: hidden;
+   }
+
+   .buttons{
+    position: absolute;
+    border: 0;
+   }
+   #left{
+    left: 1px;
+    top: 1px;
+    opacity: 0;
+   }
+   #right{
+     right: 1px;
+    top: 1px;
+   }
+   #firstvid{
+    position: absolute;
+    left: 5%;
+
+   }
+   #secondvid{
+       position: absolute;
+        left: 105%;
+   }

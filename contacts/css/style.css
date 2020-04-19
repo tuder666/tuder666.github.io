@@ -1,0 +1,159 @@
+html, body{
+	padding: 0;
+	margin: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+#main{
+    width:  230px;
+    height: 465px;
+    position: fixed;
+     margin-left: 10%;
+    margin-top: 4%;
+    background: url('../../contacts/css/iphone.png');
+}
+.contact{
+    width: 30px;
+    height: 30px;
+    top: 62px;
+    position: relative;
+    margin-left: 29px;
+}
+
+        .a{
+            position: absolute;
+            float: left;
+        }
+        .b{
+           position: absolute;
+            float: left;    
+            margin-left: 75px; 
+        }
+#ic{
+            position: fixed;
+            border: 1px solid white;
+            max-height: 445px;
+            max-width: 240px;
+    height: 60%;
+    width: 15%;
+            margin-left: 1.2%;
+    margin-top:3.6%;}
+.iphone:hover{
+   box-shadow: 0 0 250px 2px rgba(225,225,225,.35);
+}
+
+.iphone:focus{
+   box-shadow: 0 0 250px 2px rgba(225,225,225,.35);
+}
+     
+#navigation{
+    font-family: Lora;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+    position: fixed;
+    padding-top: 5px;
+    font-size: 23px;
+}      
+.nav{
+    padding: 1%;
+    top: 5px;
+    margin-left: 4%;
+    color: white;
+    text-decoration: none;
+
+}
+.nav:hover{
+text-decoration-line: underline;
+    text-decoration-color: aqua;
+}
+ .nav:focus{
+text-decoration-line: underline;
+    text-decoration-color: aqua;
+}       
+.img-news{
+		border: 2px solid gainsboro;
+		margin-bottom: 10px;
+        min-height: 300px;
+        min-width: 300px;
+    max-height: 500px;
+    max-width: 500px;
+        width: 100%;
+	}
+.news-object-bl{
+font-size: 25px;
+}
+	.news-object{
+		color:gainsboro;
+        font-size: 25px;
+	}
+	#head{margin-top: 7%; margin-left: 1%; font-family: TagType; font-size: 55px; position: fixed;}
+        
+	body{background-color: #cccc; font-family: Lora;}
+        .text-area-op{
+            font-size: 20px;
+            font-family: main;
+        }
+	.added{
+        margin-top: 70px;
+       margin-left: 18%;
+        width: 70%;
+        min-width: 350px;
+        height: auto; 
+        min-height: 100px; 
+        max-height: 900px;
+        max-width: 600px;
+        background-color: darkseagreen;
+        border: 1px solid black; 
+        margin-bottom: 30px;
+		border: 2px dashed black;
+		padding: 10px;
+       box-shadow: 0 0 250px 2px rgba(255,255,255,.35);
+	}
+	
+	.news-areatext{
+		font-size: 25px;
+		font-family: Main;
+	}
+	
+	@font-face{
+		font-family: "TagType";
+		src: url(../fonts/TagTypeRegular.ttf);
+	}
+       @font-face{
+		font-family: "Lora";
+		src: url('../fonts/Lora.otf');
+	} 
+       @font-face{
+		font-family: "Main";
+		src: url('../fonts/main.ttf');
+	} 
+
+
+@media screen and (max-width: 700px){
+    .nav{
+        font-size: 17px;
+    }
+     #main{
+        margin-top: 60px;
+     }
+}
+
+/*
+@media screen and (max-width: 700px){
+    .iphone{
+        height: 450px;
+        width: 230px;
+        position: fixed;
+        margin-left: 18%;
+        }
+    #navigation{
+        font-size: 18px;
+    }
+   
+    
+}
